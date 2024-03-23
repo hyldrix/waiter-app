@@ -7,7 +7,7 @@ const subreducers = {
     tables: tablesReducer
 }
 
-const reducer = combineReducers(subreducers);
+const reducer = combineReducers(subreducers); 
 const store = createStore(
   reducer,
   initialState,

@@ -1,5 +1,5 @@
-import NavBar from './../NavBar/NavBar.js';
-
+// @ts-ignore
+import NavBar from './../NavBar/NavBar.js'
 const Header = () => {
 
     return (

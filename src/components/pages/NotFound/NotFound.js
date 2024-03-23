@@ -1,12 +1,14 @@
 import styles from './NotFound.module.scss'
 import clsx from 'clsx';
+import Card from 'react-bootstrap/Card';
 
 const NotFound = () => {
 
 
     return (
         <section className={clsx(styles['error-page'], styles.section)}>
-            <div className="container">
+            <Card>
+
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3 col-12">
                         <div className={styles['error-inner']}>
@@ -15,7 +17,7 @@ const NotFound = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Card>
         </section>
     )
 };
