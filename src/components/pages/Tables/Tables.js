@@ -25,7 +25,7 @@ const Tables = () => {
         <Card>
           <Card.Body>
             <PageTitle>All tables</PageTitle>
-            {tables.map((table) => (<SingleTableRow {...table} />))}
+            {tables.map((table) => (<SingleTableRow key={table.id} {...table} />))}
           </Card.Body>
         </Card>
       </Container>
